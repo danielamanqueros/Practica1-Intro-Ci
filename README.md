@@ -1,17 +1,36 @@
-# Practica1-Intro-CI
-Materia: DevSecOps
-Unidad2: Integración Continua y Desarrollo Continuo
+Prácticas de GitHub Actions y SAST
+Daniela Manqueros Soto 4B
 
-Objetivo
-Comprender el funcionamiento de la Integración Continua mediante la creación de un flujo de trabajo automatizado con GitHub Actions.
+Práctica 1. Introducción a CI
 
-Desarrollo
-Se creó un repositorio en GitHub llamado "Practica1-Intro-Ci". Dentro del repositorio se creó el archivo "hola.yaml", ubicado en ".github/workflows/".
+Objetivo: Familiarizarse con GitHub Actions mediante la creación y ejecución de un flujo de trabajo automatizado.
 
-Se configuró un workflow para ejecutarse cuando se realiza un evento "push". El trabajo utiliza un ejecutor Ubuntu y ejecuta el comando "echo "HOLA MUNDO"".
+Actividades realizadas:
 
-Resultado
-La ejecución del workflow finalizó correctamente y se comprobó que el mensaje "HOLA MUNDO" aparece en los registros de GitHub Actions.
+- Creación de un repositorio en GitHub.
+- Configuración de un archivo YAML para GitHub Actions.
+- Ejecución y verificación del workflow en la pestaña Actions.
+
+Práctica 2. Análisis estático de seguridad (SAST)
+
+Objetivo: Utilizar CodeQL para analizar código JavaScript e identificar posibles vulnerabilidades de seguridad.
+
+Actividades realizadas:
+
+- Creación del archivo "security-sast.yml".
+- Configuración de CodeQL para analizar JavaScript.
+- Incorporación del archivo "app.js" con una vulnerabilidad intencional para fines educativos.
+- Ejecución del análisis mediante GitHub Actions.
+- Revisión de los resultados en la sección Security → Code scanning.
+
+Herramientas utilizadas
+
+- GitHub
+- GitHub Actions
+- YAML
+- JavaScript
+- CodeQL
 
 Conclusión
-Con esta práctica se comprendió cómo GitHub Actions permite automatizar tareas mediante flujos de trabajo definidos en archivos YAML.
+
+Estas prácticas permitieron conocer el funcionamiento de los flujos de trabajo automatizados de GitHub Actions y la importancia del análisis estático de seguridad para detectar posibles vulnerabilidades en el código.
